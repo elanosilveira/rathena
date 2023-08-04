@@ -461,7 +461,7 @@ moc_ruins,141,125,3	script	Mr. Irrelevant	83,{
 	}
 	else if (BaseJob != Job_Novice && BaseJob != Job_Thief) {
 		mes "[Mr. Irrelevant]";
-		switch(rand(4)) {
+		switch(rand(5)) {
 		case 1:
 			mes "I could use a good, hard drink.";
 			close;
